@@ -32,7 +32,7 @@
 
 ### 2.3 内存泄漏
 
-如果我们在`P`层执行了耗时操作，当用户退出`Activity`之后`Activity`依然不能销毁，也会导致内存泄漏，由此因出弱引用，参考：
+如果我们在`P`层执行了耗时操作，当用户退出`Activity`之后`Activity`依然不能销毁，也会导致内存泄漏，由此因出弱引用，参考：[MVP思想实现项目基础框架搭建](https://github.com/tianyalu/NeMvpModelLogin)
 
 ```java
     @Override
